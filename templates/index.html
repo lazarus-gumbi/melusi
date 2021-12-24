@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+<title>Melusi Gumbi</title>
+</head>
+<body>
+    <!-- Image and text -->
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="text-center navbar-brand" href="#">
+      Melusi Gumbi
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact me</a>
+          </li>
+          
+        </ul>
+      </div>
+  </nav><div class="main">
+  <div class="bg">
+  <img src="https://mail.google.com/mail/u/0?ui=2&ik=b5b0e33303&attid=0.2&permmsgid=msg-f:1719044281789671252&th=17db45aa993d6754&view=att&disp=safe&realattid=f_kx4tcxii1"alt="melusi">
+  <div class="jumbotron mt-5 bg-traansparent">
+    <h3 class="">Rando Fact <span>{{day_name}}</span></h3>
+    <p class="lead">{{fact}}</p>
+  </div> 
+</div>
+</div>
+  <div class="about" id="about">
+      <h1>HI</h1>
+      <p>My name is Melusi Gumbi, I am a developer based in a small country called eSwatini which is located in the southern part of Africa. I am very passionate about writing code thus I am somewhat of a full-stack developer because I do front-end and also do backend. I have knowledge in Python, Java, HTML, CSS, PHP, SQLite,Flutter and Dart. I am still growing my bag of programming tools because you can never know enough when it comes to programming.</p>
+  </div> 
+  <div class="contact" id="contact">
+      <h1>Contact Me</h1>
+      <div class="logos">
+          <a href="https://www.facebook.com/kustaninoh.gumbi/"><img src="https://img.icons8.com/ios-filled/150/000000/facebook-circled--v3.png"/></a>
+            <a href="https://www.instagram.com/lazarus.gumbi/"><img src="https://img.icons8.com/fluency-systems-filled/150/000000/instagram-new.png"/></a>
+        </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>

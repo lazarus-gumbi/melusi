@@ -1,0 +1,65 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0px 15px;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bg img {
+    margin-top: 3rem;
+    transform: rotate(-75deg);
+    width: 200px;
+    border: 5px solid white;
+
+}
+
+.jumbotron {
+    background: rgba(204, 204, 204, 0.5);
+    color: black;
+    font-size:2rem;
+
+}
+
+span {
+    color: red;
+    font-family: 'Pacifico', cursive;
+    border: 1px solid black;
+    background-color: black;
+    padding:3px;
+}
+
+.about{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.contact{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact img{
+    width: 4rem;
+}
